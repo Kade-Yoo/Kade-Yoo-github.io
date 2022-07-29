@@ -9,7 +9,7 @@ version: 2
 name: 유형민
 title: Java Back-end Engineer
 email: yhm9207@naver.co.kr
-website: https://kade-yoo.github.io/resume/
+website: https://github.com/Kade-Yoo
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -30,10 +30,10 @@ linkedin_username: 형민-유-94812b237
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: kade-yoo
-  icon: fas fa-globe
-  url: https://github.com/Kade-Yoo
+#additional_links:
+#- title: kade-yoo
+#  icon: fas fa-globe
+#  url: https://github.com/Kade-Yoo
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -111,6 +111,33 @@ content:
 
       Look at this cool image  
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+  - title: Skill
+    layout: list
+    content:
+      - layout: top-middle
+        sub_title: 현재까지 경험했던 기술 목록을 나열하였습니다.
+      - layout: left
+        title : Back-End
+        description: |
+          - Java
+          - Spring Boot, Spring MVC, Spring Batch, Spring Data JPA, Spring Data Redis
+          - JPA, QueryDSL, Hibernate
+          - Junit5, Mock
+          - Gradle
+          - IntelliJ
+      - layout: left
+        title : DevOps
+        description: |
+          - PostgreSQL
+          - Jenkins
+          - Git, Github
+          - Nginx, Tomcat
+      - layout: left
+        title : Front-End
+        description: |
+          - Javascript
+          - JQuery
 
 # Footer
 footer_show_references: true
