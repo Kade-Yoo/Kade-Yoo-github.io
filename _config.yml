@@ -120,12 +120,45 @@ content:
         - layout: left
           title: 성적, 자습, 인강 점수에 따른 랭킹 서비스
           caption: 2022. 01 - 2022. 02
-          sub_title: 성적 조회 및 입력 담당
+          sub_title: 랭킹 조회 및 입력 담당
           quote: >
-            Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+            Spring Batch, Spring Data Redis 사용한 실시간 랭킹 서비스
           description: | # this will include new lines to allow paragraphs
-            During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-            I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+            - MemoryDB Redis를 이용한 랭킹 조회 로직 개발
+            - Spring Batch를 이용한 랭킹 데이터 갱신 로직 개발
+            - 랭킹 조회 로직을 common API로 분리
+            - Java, Spring Boot, Spring Data Redis, Spring Batch, Spring Data JPA, QueryDSL, PostgreSQL
+        - layout: left
+          title: 오프라인 결제의 안정성 및 간편성 UP - VAN사 모듈 변경
+          caption: 2021. 09 - 2022. 01
+          sub_title: 모듈 변경, 결제 API 고도화 담당
+          quote: >
+            기존 결제 모듈의 결제 누락 개선과 간편 결제 기능을 위한 신규 VAN 모듈로의 변경
+          description: | # this will include new lines to allow paragraphs
+            - 간편 결제를 위한 연속 결제, QR 결제, 바코드 결제, 카드 없이 환불 기능 추가
+            - 결제 누락 기능 개선(수동 등록 -> 스케줄링)
+            - 결제 트래픽 분산을 위한 결제 API 분리
+            - Java, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, PostgreSQL, Javascript, JQuery
+        - layout: left
+          title: 학생별 오답에 대한 원인을 분석해주는 서비스
+          caption: 2021. 05 - 2021. 08
+          sub_title: 오답원인, 성적 입력, 통계 기능 개발 담당
+          quote: >
+            학생이 입력한 성적 및 원인 정보를 바탕으로 통계를 확인하는 서비스
+          description: | # this will include new lines to allow paragraphs
+            - 업로드 1회 최대 35만건에 달하는 대용량 데이터 입력 기능 개발
+            - 대용량 처리 로직 JPA -> Mybatis -> JDBC 단계별 개선  
+            - 학생의 학원, 반별 시험 성적 및 오답원인 통계 페이지 개발
+            - Java, Javascript, Spring Boot, Spring MVC, Spring Data JPA, QueryDSL, Spring JDBC, Mybatis, JQuery, PostgreSQL
+        - layout: left
+          title: 주간별 청구 및 납부금 통계 서비스 개편
+          caption: 2020. 12 - 2021. 02
+          sub_title: 통계 페이지 및 API 개편 담당
+          quote: >
+            3개월 주기 통계 페이지 -> 일, 주, 월별 통계 페이지 개편
+          description: | # this will include new lines to allow paragraphs
+            - 
+            - Java, Javascript, Spring Boot, Spring MVC, Spring Data JPA, QueryDSL, JQuery, PostgreSQL
 
   - title: A Little More About Me
     layout: text
