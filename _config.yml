@@ -157,8 +157,19 @@ content:
           quote: >
             3개월 주기 통계 페이지 -> 일, 주, 월별 통계 페이지 개편
           description: | # this will include new lines to allow paragraphs
-            - 
+            - 일, 주, 월별 통계 페이지 개편을 통한 회계 처리 효율성 개선
             - Java, Javascript, Spring Boot, Spring MVC, Spring Data JPA, QueryDSL, JQuery, PostgreSQL
+        - layout: left
+          title: 학생정보부터 수강료 청구 및 납부를 관리하는 백오피스
+          caption: 2019. 12 - 2022. 02
+          sub_title: 학생, 반, 청구, 결제 관련 운영/개발 담당
+          quote: >
+            학생, 반, 청구, 결제 등 운영에 필요한 기능을 제공하는 서비스
+          description: | # this will include new lines to allow paragraphs
+            - 오프라인(VAN사), 온라인(PG사) 결제 업체와 소통하며 백오피스 결제 모듈의 안정성 확보
+            - 청구 기능 리팩토링을 통한 속도 2.5배 향상
+            - 반, 학생별 결제내역을 고도화하여 회계 처리 업무 효율성 증가
+            - Java, Javascript, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, Mybatis, JQuery, PostgreSQL
 
   - title: A Little More About Me
     layout: text
