@@ -46,7 +46,7 @@ linkedin_username: 형민-유-94812b237
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.JPG
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Java & Spring 기반의 3년차 백엔드 엔지니어 입니다.  
   교육 기업에서 <mark>청구, 결제</mark>와 같은 업무를 주로해왔으나 제 자신에게 한계를 두고 싶지 않아 E-commerce 스타트업에 입사를 하게 되었습니다.  
