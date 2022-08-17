@@ -64,7 +64,7 @@ content:
 #        link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Java Back-end Engineer
-        caption: 2022. 05 - 2022. 07 (3개월) <br> <mark>07. 31 사업종료</mark>
+        caption: 2022. 05 - 2022. 07 (3개월) <br> <mark>07. 22 사업종료</mark>
         quote: >
           Health, Fitness, Beauty All in One Platform
         description: | # this will include new lines to allow paragraphs
@@ -83,6 +83,8 @@ content:
           - 결제 모듈 변경, 청구 및 결제 기능 고도화
           - 건당 35만건 데이터 처리 로직 개발
           - AWS 환경에서 배포 경험
+          - 사람인 직무인터뷰 경험
+          - 우수사원 수상
 
   - title: Capability - Lific # Title for the section
     layout: list # Type of content section (list/text)
@@ -111,7 +113,7 @@ content:
           description: | # this will include new lines to allow paragraphs
             - MemoryDB Redis를 이용한 랭킹 조회 로직 개발
             - Spring Batch를 이용한 랭킹 데이터 갱신 로직 개발
-            - 랭킹 조회 로직을 common API로 분리
+            - 랭킹 조회 로직을 common API로 분리 경험
             - Java, Spring Boot, Spring Data Redis, Spring Batch, Spring Data JPA, QueryDSL, PostgreSQL
         - layout: left
           title: 오프라인 결제의 안정성 및 간편성 UP - VAN사 모듈 변경
@@ -122,7 +124,7 @@ content:
           description: | # this will include new lines to allow paragraphs
             - 간편 결제를 위한 연속 결제, QR 결제, 바코드 결제, 카드 없이 환불 기능 추가
             - 결제 누락 기능 개선(수동 등록 -> 스케줄링)
-            - 결제 트래픽 분산을 위한 결제 API 분리
+            - 결제 트래픽 분산을 위한 결제 API 분리 경험
             - Java, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, PostgreSQL, Javascript, JQuery
         - layout: left
           title: 학생별 오답에 대한 원인을 분석해주는 서비스
@@ -131,7 +133,7 @@ content:
           quote: >
             학생이 입력한 성적 및 원인 정보를 바탕으로 통계를 확인하는 서비스
           description: | # this will include new lines to allow paragraphs
-            - 업로드 1회 최대 35만건에 달하는 대용량 데이터 입력 기능 개발
+            - 업로드 1회 최대 35만건에 데이터 입력 기능 개발
             - 대용량 처리 로직 JPA -> Mybatis -> JDBC 단계별 개선  
             - 학생의 학원, 반별 시험 성적 및 오답원인 통계 페이지 개발
             - Java, Javascript, Spring Boot, Spring MVC, Spring Data JPA, QueryDSL, Spring JDBC, Mybatis, JQuery, PostgreSQL
