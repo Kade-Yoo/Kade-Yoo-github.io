@@ -148,7 +148,7 @@ content:
             - Java, Javascript, Spring Boot, Spring MVC, Spring Data JPA, QueryDSL, JQuery, PostgreSQL
         - layout: left
           title: 학생정보부터 수강료 청구 및 납부를 관리하는 백오피스
-          caption: 2019. 12 - 2022. 02
+          caption: 2019. 08 - 2022. 04
           sub_title: 학생, 반, 청구, 결제 관련 운영/개발 담당
           quote: >
             학생, 반, 청구, 결제 등 운영에 필요한 기능을 제공하는 서비스
