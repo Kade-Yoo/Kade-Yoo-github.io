@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 유형민
-title: Java Back-end Engineer
+title: Java & Kotlin Back-end Engineer
 email: yhm9207@naver.co.kr
 website: https://github.com/Kade-Yoo
 
@@ -61,16 +61,17 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 위메프
+        title: Wemakeprice
         sub_title: Java Back-end Engineer
         caption: 2022. 09 ~ 현재
         quote: >
           Back Office Service
         description: | # this will include new lines to allow paragraphs
           - BackOffice 홈페이지 Kotlin 전환 프로젝트 참여
-          - API Gateway 분리 프로젝트 참여
+          - API Gateway 개발
+          - 배치 서버 이관
       - layout: left
-        title: (주)라이픽
+        title: Lific
         sub_title: Java Back-end Engineer
         caption: 2022. 05 - 2022. 07 (3개월) 07. 22 사업종료
         quote: >
@@ -79,7 +80,7 @@ content:
           - 예약 도메인 관련 API 담당(소비자 앱, 운영자 웹, 공급자 웹)
           - H2 Database를 활용하여 로컬 테스트 환경 구성
       - layout: left
-        title: 이투스교육
+        title: Etoos
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Web Developer
@@ -93,7 +94,7 @@ content:
           - AWS 환경에서 배포 경험
           - 사람인 직무인터뷰 경험
 
-  - title: Capability - Lific # Title for the section
+  - title: Capability - Wemakeprice # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -107,6 +108,10 @@ content:
           - API Gateway 개발
           - 배치 서버 이관
           - Kotlin, Spring Boot, Spring MVC, Spring Data JPA, QueryDSL, Spring Rest Docs, Spring Cloud, JUnit 5, H2, MySQL, Git, Jenkins
+
+  - title: Capability - Lific # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
       - layout: left
         title: 예약 도메인
         caption: 2022. 05 - 2022. 07
