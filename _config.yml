@@ -48,13 +48,13 @@ linkedin_username: 형민-유-94812b237
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java & Spring 기반의 4년차 백엔드 엔지니어 입니다.  
-  교육 기업에서 <mark>청구, 결제</mark>와 같은 업무를 주로해왔으나 제 자신에게 한계를 두고 싶지 않아 E-commerce 스타트업에 입사를 하게 되었습니다.  
+  Java & Kotlin & Spring 기반의 4년차 백엔드 엔지니어 입니다.  
+  교육 기업에서 <mark>청구, 결제</mark> 업무를 주로해왔으나 스스로 한계를 두고 싶지 않아 E-commerce 스타트업에 입사를 하게 되었습니다.  
   스타트업에서 <mark>예약 도메인</mark>을 경험하며 E-commerce에 대한 시야를 넓혔습니다.
-  넓힌 시야를 바탕으로 ~가 있는 위메프에서 
-  최근에는 Kotlin을 공부하며 새로운 언어에 대한 도전을 해보았고 앞으로는 언어 뿐 아니라 도메인에 지식을 탐구해보려고 합니다.  
+  스타트업의 경험을 바탕으로 위메프 커머스 회사에서 백오피스 도메인을 담당하였습니다. 
+  최근에는 Kotlin을 공부하며 새로운 언어에 대한 도전을 했고 앞으로는 언어 뿐 아니라 도메인 지식을 탐구해 볼 계획을 가지고 있습니다.  
   
-  <mark>나에게 어울리는 방향성을 찾는 개발자가 되자</mark>
+  <mark>순수한 열정을 갖고 일하고 싶은 개발자입니다</mark>
 
 content:
   - title: Experience # Title for the section
@@ -65,14 +65,14 @@ content:
         sub_title: Java Back-end Engineer
         caption: 2022. 09 ~ 현재
         quote: >
-          Back Office Homepage Service
+          Back Office Service
         description: | # this will include new lines to allow paragraphs
-          - 마케팅 홈페이지 Kotlin 전환 프로젝트 참여
+          - BackOffice 홈페이지 Kotlin 전환 프로젝트 참여
           - API Gateway 분리 프로젝트 참여
       - layout: left
         title: (주)라이픽
         sub_title: Java Back-end Engineer
-        caption: 2022. 05 - 2022. 07 (3개월) <br> <mark>07. 22 사업종료</mark>
+        caption: 2022. 05 - 2022. 07 (3개월) 07. 22 사업종료
         quote: >
           Health, Fitness, Beauty All in One Platform
         description: | # this will include new lines to allow paragraphs
@@ -97,14 +97,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Partner
+        title: 파트너, 마케팅센터 운영 및 개발
         caption: 2022. 09 ~
         sub_title: 개발 및 운영
         quote: >
-          Back Office Homepage Service
+          Back Office Service
         description: | # this will include new lines to allow paragraphs
-          - 
-          - Kotlin, Spring Boot, Spring MVC, Spring Data JPA, QueryDSL, Spring Rest Docs, Spring Cloud, JUnit 5, H2, MySQL, Git.
+          - Node.js + Express.js로 되어있는 백오피스 서비스를 Kotlin + Spring Boot를 이용하여 이관하는데 참여
+          - API Gateway 개발
+          - 배치 서버 이관
+          - Kotlin, Spring Boot, Spring MVC, Spring Data JPA, QueryDSL, Spring Rest Docs, Spring Cloud, JUnit 5, H2, MySQL, Git, Jenkins
       - layout: left
         title: 예약 도메인
         caption: 2022. 05 - 2022. 07
