@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: 유형민
 title: Java & Kotlin Back-end Engineer
-email: yhm9207@naver.co.kr
+email: yhm9207@naver.com
 website: https://github.com/Kade-Yoo
 
 # Dark Mode (true/false/never)
@@ -98,17 +98,25 @@ content:
     content:
       - layout: left
         title: 파트너, 마케팅센터 운영 및 개발
-        caption: 2022. 09 ~
+        caption: 2022. 01 ~ 2022. 04
         sub_title: 개발 및 운영
         quote: >
-          Back Office Service
+          Node.js to Kotlin 기술셋 전환
         description: | # this will include new lines to allow paragraphs
-          - Node.js + Express.js로 되어있는 BackOffice Service를 Kotlin + Spring Boot로 전환하는 프로젝트 참여
-          - Backoffice Service의 API 요청, 응답, 필터 등을 담당하는 API Gateway 개발
           - 프로젝트에 필요한 기술(Spring Boot, Spring Cloud, ORM, Kotlin 등)을 분석하여 적합한 기술을 찾는데 기여
-          - Node.js 배치 서비스를 Jenkins로 제어하도록 하는 환경 구성
+          - Backoffice Service의 API 요청, 응답, 필터 등을 담당하는 API Gateway 개발
           - Git 전략 수립
           - Kotlin, Java, Node.js, Spring Boot, Spring Data JPA, QueryDSL, Spring Cloud, MySQL, Git, Jenkins
+      - layout: left
+        title: 파트너, 마케팅센터 운영 및 개발
+        caption: 2022. 12 ~ 2023. 01
+        sub_title: 개발 및 운영
+        quote: >
+          Node.js 배치 서비스를 Jenkins로 제어하도록 하는 환경 구성
+        description: | # this will include new lines to allow paragraphs
+          - Node.js Schedule의 잦은 장애로 인한 Jenkins 이관
+          - Jenkins 이관으로 인해 관리가 용이해지고 장애로 인한 서버 및 데이터 복원의 리소스 소요가 적어짐
+          - Node.js, Git, Jenkins
 
   - title: Capability - Lific # Title for the section
     layout: list # Type of content section (list/text)
