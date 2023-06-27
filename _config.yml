@@ -104,7 +104,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Node.js + Express.js로 되어있는 BackOffice Service를 Kotlin + Spring Boot로 전환하는 프로젝트 참여
           - Backoffice Service의 API 요청, 응답, 필터 등을 담당하는 API Gateway 개발
+          - 프로젝트에 필요한 기술(Spring Boot, Spring Cloud, ORM, Kotlin 등)을 분석하여 적합한 기술을 찾는데 기여
           - Node.js 배치 서비스를 Jenkins로 제어하도록 하는 환경 구성
+          - Git 전략 수립
           - Kotlin, Java, Node.js, Spring Boot, Spring Data JPA, QueryDSL, Spring Cloud, MySQL, Git, Jenkins
 
   - title: Capability - Lific # Title for the section
@@ -198,7 +200,6 @@ content:
           - PostgreSQL, MySQL
           - Jenkins
           - Git, Github
-          - Nginx, Tomcat
 
 # Footer
 footer_show_references: true
