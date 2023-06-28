@@ -96,8 +96,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 파트너, 마케팅센터 운영 및 개발
-        caption: 2022. 01 ~ 2022. 04
+        title: 파트너 서비스 기술셋 전환
+        caption: 2022. 01 ~ 2022. 05
         sub_title: 개발 및 운영
         quote: >
           Node.js to Kotlin 기술셋 전환
@@ -107,7 +107,7 @@ content:
           - Git 전략 수립
           - Kotlin, Java, Node.js, Spring Boot, Spring Data JPA, QueryDSL, Spring Cloud, MySQL, Git, Jenkins
       - layout: left
-        title: 파트너, 마케팅센터 운영 및 개발
+        title: 마케팅센터 배치 서비스 기술 전환
         caption: 2022. 12 ~ 2023. 01
         sub_title: 개발 및 운영
         quote: >
