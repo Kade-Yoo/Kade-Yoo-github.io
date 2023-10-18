@@ -60,9 +60,17 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: 큐텐(지오시스)
+        sub_title: Back-end Engineer
+        caption: 2023. 06 ~ 현재
+        quote: >
+          Back Office Service
+        description: | # this will include new lines to allow paragraphs
+          - 하위 계정 프로젝트
+      - layout: left
         title: Wemakeprice
         sub_title: Java Back-end Engineer
-        caption: 2022. 09 ~ 현재
+        caption: 2022. 09 ~ 2023. 05(회사 인수합병으로 인한 큐텐 전적)
         quote: >
           Back Office Service
         description: | # this will include new lines to allow paragraphs
@@ -91,6 +99,18 @@ content:
           - 결제 모듈 변경, 청구 및 결제 기능 고도화
           - 건당 35만건 데이터 처리 로직 개발
           - AWS 환경에서 배포 경험
+
+  - title: Capability - Qoo10 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 하위 계정 프로젝트
+        caption: 2023. 07 ~ 2022. 08
+        sub_title: 개발 및 운영
+        quote: >
+          하위 계정 개발
+        description: | # this will include new lines to allow paragraphs
+          - Java, Spring Boot, MySQL, Git, Jenkins
 
   - title: Capability - Wemakeprice # Title for the section
     layout: list # Type of content section (list/text)
