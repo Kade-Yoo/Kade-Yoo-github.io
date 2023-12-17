@@ -49,34 +49,35 @@ linkedin_username: 형민-유-94812b237
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Java & Kotlin & Spring 기반의 4년차 백엔드 엔지니어 입니다. 
-  <br>이커머스 기업에서 <strong>일 요청 5000만건</strong> 파트너 서비스, 교육 기업에서 <strong>주문 및 결제</strong>에서 백엔드 개발 업무를 담당하였습니다.
-  <br>안정성을 중시하는 개발자로 성장하겠다는 목표를 갖고 있습니다.
-  <br>교육 기업을 다니며 청구, 결제 업무를 경험하였고, 서비스 안정성을 키우는 시각과 책임감 있는 태도를 배웠습니다.
-  <br>월 약 30건 결제 데이터가 누락되는 상황에 대해 VAN 사와의 협업을 통해 개선을 진행하였고 월 1건으로 줄이게 되었습니다.
-  <br>코드 측면에서도 안정성을 높이기 위한 노력을 하였습니다. 테스트 환경이 없는 상태에서 테스트 환경을 구축하여 수정으로 인한 사이드 이펙트를 줄이는데 기여하였습니다.
+  <br>이커머스 기업에서 <strong>일 요청 5000만건</strong> 파트너 서비스, 교육 기업에서 <strong>주문 및 결제, 백오피스 서비스</strong>개발 및 운영 업무를 담당하였습니다.
+#  <br>교육 기업을 다니며 청구, 결제 업무를 경험하였고, 서비스 안정성을 키우는 시각과 책임감 있는 태도를 배웠습니다.
+#  <br>월 약 30건 결제 데이터가 누락되는 상황에 대해 VAN 사와의 협업을 통해 개선을 진행하였고 월 1건으로 줄이게 되었습니다.
 
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 큐텐(지오시스)
+        title: Qoo10(Giosis)
         sub_title: Back-end Engineer
         caption: 2023. 06 ~ 현재
         quote: >
           Back Office Service
         description: | # this will include new lines to allow paragraphs
-          - 하위 계정 프로젝트
+          - 위메프 파트너 서비스 <strong>하위 계정</strong> 프로젝트 : 대표 계정의 권한을 일부 나눠서 사용하는 계정
+            - 하위 계정 로그인 관련 기능 개발 담당
       - layout: left
         title: Wemakeprice
         sub_title: Java Back-end Engineer
-        caption: 2022. 09 ~ 2023. 05(회사 인수합병으로 인한 큐텐 전적)
+        caption: 2022. 09 ~ 2023. 05 (9개월) (회사 인수합병으로 인한 큐텐 전적)
         quote: >
           Back Office Service
         description: | # this will include new lines to allow paragraphs
-          - Node.js to Kotlin 이관 프로젝트
-          - API Gateway 구축 프로젝트
-          - 배치 환경 이관 프로젝트
+          - 파트너 홈페이지 <strong>Node.js에서 Kotlin</strong> 이관 프로젝트
+            - 신규 환경 기술 분석 및 초기 셋팅 담당
+            - <strong>API Gateway</strong> 구축
+          - 잦은 장애가 발생하는 스케줄러 이관 프로젝트
+            - Node.js cron -> Jenkins cron 이관
       - layout: left
         title: Lific
         sub_title: Java Back-end Engineer
@@ -84,8 +85,7 @@ content:
         quote: >
           Health, Fitness, Beauty All in One Platform
         description: | # this will include new lines to allow paragraphs
-          - 예약 도메인 관련 API 담당(소비자 앱, 운영자 웹, 공급자 웹)
-          - 로컬 테스트 환경 구성
+          - 예약 도메인 관련 API 개발(소비자, 운영자, 공급자)
       - layout: left
         title: Etoos
         # link: boringcompany.com
@@ -93,10 +93,11 @@ content:
         sub_title: Web Developer
         caption: 2019. 06 - 2022. 04 (2년 11개월)
         quote: >
-          Academy Homepage and Back Offic Homepage Service
+          Academy Homepage and Back Office Service
         description: | # this will include new lines to allow paragraphs
           - 학생 성적, 청구, 결제(PG, VAN) 관련 백오피스 개발/운영
-          - 결제 모듈 변경, 청구 및 결제 기능 고도화
+          - 결제 모듈 변경 프로젝트 
+          - 청구 및 결제 기능 고도화
           - 건당 35만건 데이터 처리 로직 개발
           - AWS 환경에서 배포 경험
 
@@ -120,10 +121,10 @@ content:
         caption: 2022. 01 ~ 2022. 05
         sub_title: 개발 및 운영
         quote: >
-          Node.js to Kotlin 기술셋 전환
+          파트너 홈페이지 Node.js에서 Kotlin 이관 프로젝트
         description: | # this will include new lines to allow paragraphs
-          - 프로젝트에 필요한 기술(Spring Boot, Spring Cloud, ORM, Kotlin 등)을 분석하여 적합한 기술을 찾는데 기여
-          - Backoffice Service의 API 요청, 응답, 필터 등을 담당하는 API Gateway 개발
+          - 프로젝트 사용 기술(Spring Boot, Spring Cloud, ORM, Kotlin 등)을 분석하여 적합한 기술을 찾는데 기여
+          - Backoffice Service API 요청, 응답의 필터, 라우팅을 담당하는 API Gateway 개발
           - Git 전략 수립
           - Kotlin, Java, Node.js, Spring Boot, Spring Data JPA, QueryDSL, Spring Cloud, MySQL, Git, Jenkins
       - layout: left
@@ -131,9 +132,10 @@ content:
         caption: 2022. 12 ~ 2023. 01
         sub_title: 개발 및 운영
         quote: >
-          Node.js 배치 서비스를 Jenkins로 제어하도록 하는 환경 구성
+          Node.js 스케줄러를 Jenkins로 제어하도록 환경 구성
         description: | # this will include new lines to allow paragraphs
-          - Node.js Schedule의 잦은 장애로 인한 Jenkins 이관
+          - Node.js 스케줄러의 잦은 장애로 인한 Jenkins 이관
+          - Jenkins 설치 및 Job 구성
           - Jenkins 이관으로 인해 관리가 용이해지고 장애로 인한 서버 및 데이터 복원의 리소스 소요가 적어짐
           - Node.js, Git, Jenkins
 
@@ -149,8 +151,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 예약 점심시간, 휴무일, 비정기 휴무일 기능 개발
           - 공급자 예약 도메인 API 개발
-          - 로컬 테스트 환경 구성
-          - Spring Boot, Spring Data JPA, QueryDSL, Spring Rest Docs, Spring Cloud, JUnit 5, H2, PostgreSQL, Git, Jenkins, k8s.
+          - Spring Boot, Spring Data JPA, QueryDSL, Spring Rest Docs, Spring Cloud, PostgreSQL, Git, Jenkins
 
   - title: Capability - Etoos # Title for the section
     layout: list # Type of content section (list/text)
@@ -187,26 +188,6 @@ content:
             - JPA, Mybatis의 대용량 처리 이슈를 JDBC를 통한 개선
             - 학생의 학원, 반별 시험 성적 및 오답원인 통계 조회 API 및 페이지 개발
             - Java, Javascript, Spring Boot, Spring MVC, Spring Data JPA, QueryDSL, Spring JDBC, Mybatis, JQuery, PostgreSQL
-        - layout: left
-          title: 주간별 청구 및 납부금 통계 서비스 개편
-          caption: 2020. 12 - 2021. 02
-          sub_title: 통계 페이지 및 API 개편 담당
-          quote: >
-            3개월 주기 통계 페이지 -> 일, 주, 월별 통계 페이지 개편
-          description: | # this will include new lines to allow paragraphs
-            - 일, 주, 월별 통계 페이지 개편을 통한 회계 처리 효율성 개선
-            - Java, Javascript, Spring Boot, Spring MVC, Spring Data JPA, QueryDSL, JQuery, PostgreSQL
-        - layout: left
-          title: 학생정보부터 수강료 청구 및 납부를 관리하는 백오피스
-          caption: 2019. 08 - 2022. 04
-          sub_title: 학생, 반, 청구, 결제 관련 운영/개발 담당
-          quote: >
-            학생, 반, 청구, 결제 등 운영에 필요한 기능을 제공하는 서비스
-          description: | # this will include new lines to allow paragraphs
-            - 오프라인(VAN사), 온라인(PG사) 결제 업체와 소통하며 백오피스 결제 모듈의 안정성 확보
-            - 청구 기능 리팩토링을 통한 속도개선
-            - 반, 학생별 결제내역을 고도화하여 회계 처리 업무 효율성 증가(월 5건 -> 1건 미만 리소스 사용)
-            - Java, Javascript, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, Mybatis, JQuery, PostgreSQL
 
   - title: Skill
     layout: list
@@ -218,16 +199,19 @@ content:
         description: |
           - Java, Kotlin
           - Spring Boot, Spring MVC, Spring Batch, Spring Data JPA, Spring Data Redis, Spring Cloud
-          - JPA, QueryDSL, Hibernate
-          - Junit5, Mock
+          - JPA, QueryDSL
           - Gradle
           - IntelliJ
       - layout: left
         title : DevOps
         description: |
-          - PostgreSQL, MySQL
+          - PostgreSQL, MySQL, MongoDB
           - Jenkins
-          - Git, Github
+          - Git, Github, Bitbucket
+      - layout: left
+        title : Work
+        description: |
+          - Jira, Confluence
 
 # Footer
 footer_show_references: true
