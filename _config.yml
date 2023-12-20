@@ -63,8 +63,11 @@ content:
         quote: >
           Partner Service
         description: | # this will include new lines to allow paragraphs
-          - 위메프 파트너 서비스 <strong>하위 계정</strong> 프로젝트 : 대표 계정의 권한을 일부 나눠서 사용하는 계정
+          - 위메프 파트너 서비스 <strong>하위 계정</strong> 프로젝트
+            - 대표 계정의 권한을 일부 나눠서 사용하는 계정을 구성하는 프로젝트
           - 위메프 쿠폰 테이블 지연 이슈 개선
+            - 쿠폰 테이블 MySQL -> MongoDB 이관
+
       - layout: left
         title: Wemakeprice
         sub_title: Java Back-end Engineer
@@ -77,6 +80,7 @@ content:
             - <strong>API Gateway</strong> 구축
           - 잦은 장애가 발생하는 스케줄러 이관 프로젝트
             - Node.js Scheduler -> Jenkins Scheduler 이관
+
       - layout: left
         title: Lific
         sub_title: Java Back-end Engineer
@@ -85,6 +89,7 @@ content:
           Health, Fitness, Beauty All in One Platform
         description: | # this will include new lines to allow paragraphs
           - 예약 도메인 관련 API 개발(소비자, 운영자, 공급자)
+
       - layout: left
         title: Etoos
         # link: boringcompany.com
@@ -110,11 +115,12 @@ content:
         quote: >
           위메프 파트너 서비스 운영
         description: | # this will include new lines to allow paragraphs
-          - 위메프 파트너 서비스 <strong>하위 계정</strong> 프로젝트 : 대표 계정의 권한을 일부 나눠서 사용하는 계정
+          - 위메프 파트너 서비스 <strong>하위 계정</strong> 프로젝트 
+            - 대표 계정의 권한을 일부 나눠서 사용하는 계정
             - 하위 계정 로그인 관련 기능 개발 담당
           - 위메프 상품 쿠폰 테이블 지연 이슈로 인한 MongoDB 이관
             - 약 1380억개 데이터 테이블 MongoDB 이관
-          - Java, Spring Boot, MySQL, Git, Jenkins
+          - Java, Spring Boot, Spring MVC, Spring Data MongoDB, MySQL, MongoDB, Mybatis, Git, Jenkins
 
   - title: Capability - Wemakeprice # Title for the section
     layout: list # Type of content section (list/text)
@@ -128,9 +134,12 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 신규 환경 기술 분석 및 초기 셋팅 담당
             - 프로젝트 사용 기술(Spring Boot, Spring Cloud, ORM, Kotlin 등)을 분석하여 적합한 기술을 찾는데 기여
-          - Backoffice Service API 요청, 응답의 필터, 라우팅을 담당하는 API Gateway 구축
-          - Git 전략 수립
+            - 프로젝트 기술에 맞는 환경 셋팅 담당
+            - Git 전략 수립 
+          - Backoffice Service API Gateway 구축
+            - API 요청, 응답에 대한 필터, 라우터 개발 
           - Kotlin, Java, Node.js, Spring Boot, Spring Data JPA, QueryDSL, Spring Cloud, MySQL, Git, Jenkins
+
       - layout: left
         title: 파트너서비스 스케줄 기술 전환
         caption: 2022. 12 ~ 2023. 01
