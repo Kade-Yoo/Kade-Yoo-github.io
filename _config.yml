@@ -49,8 +49,8 @@ linkedin_username: 형민-유-94812b237
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Java & Kotlin & Spring 기반의 4년차 백엔드 엔지니어 입니다. 
-  <br>이커머스 기업에서 <strong>일 요청 5000만건</strong> 파트너 서비스, 교육 기업에서 <strong>주문 및 결제, 백오피스 서비스</strong>개발 및 운영 업무를 담당하였습니다.
-  <br>교육 기업을 다니며 청구, 결제 업무를 경험하였고, 서비스 안정성을 키우는 시각과 책임감 있는 태도를 배웠습니다.
+  <br>이커머스 기업에서 <strong>일 요청 5000만건</strong> 파트너 서비스, 교육 기업에서 <strong>주문 및 결제</strong>개발 및 운영 업무를 담당하였습니다.
+  <br>비즈니스를 원활히 할 수 있도록 지원하는 백오피스를 운영 및 개발하며, 데이터의 가치를 아는 개발자로 성장하였습니다.
 
 content:
   - title: Experience # Title for the section
@@ -61,18 +61,16 @@ content:
         sub_title: Back-end Engineer
         caption: 2023. 06 ~ 현재
         quote: >
-          Back Office Service
+          Partner Service
         description: | # this will include new lines to allow paragraphs
           - 위메프 파트너 서비스 <strong>하위 계정</strong> 프로젝트 : 대표 계정의 권한을 일부 나눠서 사용하는 계정
-            - 하위 계정 로그인 관련 기능 개발 담당
-          - 위메프 쿠폰 테이블 지연 이슈 처리
-            - 약 3000억개 데이터 테이블 MongoDB 이관
+          - 위메프 쿠폰 테이블 지연 이슈 개선
       - layout: left
         title: Wemakeprice
         sub_title: Java Back-end Engineer
         caption: 2022. 09 ~ 2023. 05 (9개월) (회사 인수합병으로 인한 큐텐 전적)
         quote: >
-          Back Office Service
+          Partner Service
         description: | # this will include new lines to allow paragraphs
           - 파트너 홈페이지 <strong>Node.js에서 Kotlin</strong> 이관 프로젝트
             - 신규 환경 기술 분석 및 초기 셋팅 담당
@@ -106,8 +104,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 하위 계정 프로젝트
-        caption: 2023. 07 ~ 2022. 08
+        title: 파트너서비스 개발 및 운영
+        caption: 2023. 07 ~ 2023. 11
         sub_title: 개발 및 운영
         quote: >
           위메프 파트너 서비스 운영
@@ -115,31 +113,33 @@ content:
           - 위메프 파트너 서비스 <strong>하위 계정</strong> 프로젝트 : 대표 계정의 권한을 일부 나눠서 사용하는 계정
             - 하위 계정 로그인 관련 기능 개발 담당
           - 위메프 상품 쿠폰 테이블 지연 이슈로 인한 MongoDB 이관
-            - 약 3000억개 데이터 테이블 MongoDB 이관
+            - 약 1380억개 데이터 테이블 MongoDB 이관
           - Java, Spring Boot, MySQL, Git, Jenkins
 
   - title: Capability - Wemakeprice # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 파트너 서비스 기술셋 전환
-        caption: 2022. 01 ~ 2022. 05
-        sub_title: 개발 및 운영
+        title: 파트너서비스 기술셋 전환
+        caption: 2023. 01 ~ 2023. 05
+        sub_title: API Gateway 구축 및 초기 셋팅 담당
         quote: >
           파트너 홈페이지 Node.js에서 Kotlin 기술셋 전환
         description: | # this will include new lines to allow paragraphs
-          - 프로젝트 사용 기술(Spring Boot, Spring Cloud, ORM, Kotlin 등)을 분석하여 적합한 기술을 찾는데 기여
-          - Backoffice Service API 요청, 응답의 필터, 라우팅을 담당하는 API Gateway 개발
+          - 신규 환경 기술 분석 및 초기 셋팅 담당
+            - 프로젝트 사용 기술(Spring Boot, Spring Cloud, ORM, Kotlin 등)을 분석하여 적합한 기술을 찾는데 기여
+          - Backoffice Service API 요청, 응답의 필터, 라우팅을 담당하는 API Gateway 구축
           - Git 전략 수립
           - Kotlin, Java, Node.js, Spring Boot, Spring Data JPA, QueryDSL, Spring Cloud, MySQL, Git, Jenkins
       - layout: left
-        title: 마케팅센터 배치 서비스 기술 전환
+        title: 파트너서비스 스케줄 기술 전환
         caption: 2022. 12 ~ 2023. 01
-        sub_title: 개발 및 운영
+        sub_title: Jenkins 구성 및 이관 담당
         quote: >
-          Node.js 스케줄러를 Jenkins로 제어하도록 환경 구성
+          Node.js 스케줄러를 Jenkins에서 제어하도록 환경 구성
         description: | # this will include new lines to allow paragraphs
           - Node.js 스케줄러의 잦은 장애로 인한 Jenkins 이관
+          - Jenkins 및 스케줄 구성 담당
           - Jenkins 이관으로 인해 관리가 용이해지고 장애로 인한 서버 및 데이터 복원의 리소스 소요가 적어짐
           - Node.js, Git, Jenkins
 
@@ -161,38 +161,37 @@ content:
     layout: list # Type of content section (list/text)
     content:
         - layout: left
-          title: 성적, 자습, 인강 점수에 따른 랭킹 서비스
+          title: 성적, 자습, 인강 점수에   따른 랭킹 서비스
           caption: 2022. 01 - 2022. 02
           sub_title: 랭킹 조회 및 입력 담당
           quote: >
-            Spring Batch, Redis 사용한 실시간 랭킹 서비스
+            Spring Batch, Redis 사용한 준실시간 랭킹 서비스
           description: | # this will include new lines to allow paragraphs
-            - Spring Batch와 Redis를 이용한 랭킹 데이터 갱신 로직 개발
-            - Batch를 통한 랭킹 데이터 갱신 구현
-            - <strong>Redis의 ZSet 자료구조</strong>를 이용한 데이터 저장 구현
+            - Spring Batch를 통해 1분 주기로 데이터 갱신을 하여 준실시간 서비스 제공
+            - <strong>Redis의 ZSet 자료구조</strong>를 이용한 효과적인 랭킹 데이터 저장
             - Java, Spring Boot, Spring Data Redis, Spring Batch, Spring Data JPA, PostgreSQL
         - layout: left
-          title: 오프라인 결제의 안정성 및 간편성 UP - VAN사 모듈 변경
+          title: VAN사 모듈 변경 - 결제 안정성 UP
           caption: 2021. 09 - 2022. 01
           sub_title: 모듈 변경, 결제 API 고도화 담당
           quote: >
-            기존 결제 모듈의 결제 누락 개선과 간편 결제 기능을 위한 신규 VAN 모듈로의 변경
+            결제 누락 개선을 위한 신규 VAN 모듈 변경
           description: | # this will include new lines to allow paragraphs
-            - 결제 누락, 간편 결제 개선 요청을 통한 VAN사 모듈 변경
-            - 결제 트래픽 분산을 위한 결제 API 서버 분리
+            - 결제 누락에 대해 VAN사와 소통을 통해 개선 요청을 하였고 신규 모듈로의 변경 성과 달성
+            - 주문, 결제 트래픽 분산을 위한 결제 API 서버 분리
             - Java, Spring Boot, Spring Batch, Spring Data JPA, QueryDSL, PostgreSQL, Javascript, JQuery
         - layout: left
           title: 학생별 오답에 대한 원인을 분석해주는 서비스
           caption: 2021. 05 - 2021. 08
           sub_title: 오답원인, 성적 입력, 통계 기능 개발 담당
           quote: >
-            학생이 입력한 성적 및 원인 정보를 바탕으로 통계를 확인하는 서비스
+            성적 및 성적 관련 정보를 바탕으로 한 통계 서비스
           description: | # this will include new lines to allow paragraphs
-            - 업로드 1회 최대 35만건에 달하는 대용량 데이터 저장 기능 개발
+            - 업로드 1회 최대 35만건 데이터 저장 기능 개발
               - Spring JDBC를 통한 bulk insert 처리
               - Mybatis Bulk Error, JPA 속도 이슈로 인한 Spring JDBC batchUpdate 사용
-            - 학생의 학원, 반별 시험 성적 및 오답원인 통계 조회 API 및 페이지 개발
-            - Java, Javascript, Spring Boot, Spring MVC, Spring Data JPA, QueryDSL, Spring JDBC, Mybatis, JQuery, PostgreSQL
+            - 학원, 반별 학생의 시험 성적 및 오답원인 통계 조회 API 및 페이지 개발
+            - Java, Javascript, Spring Boot, Spring MVC, Spring Data JPA, QueryDSL, Spring JDBC, JQuery, PostgreSQL
 
   - title: Skill
     layout: list
