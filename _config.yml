@@ -45,8 +45,7 @@ linkedin_username: 형민-유-94812b237
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
+about_title: About Me
 about_content: | # this will include new lines to allow paragraphs
   Java & Kotlin & Spring 기반의 4년차 백엔드 엔지니어 입니다. 
   <br>이커머스 기업에서 <strong>일 요청 5000만건</strong> 파트너 서비스, 교육 기업에서 <strong>주문 및 결제</strong>개발 및 운영 업무를 담당하였습니다.
@@ -225,6 +224,20 @@ content:
         title : Work
         description: |
           - Jira, Confluence
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: 공주대학교
+        caption: 2013. 03 - 2019. 02
+        description: |
+          - 컴퓨터공학부 소프트웨어공학전공
+      - layout: left
+        title: 경문고등학교
+        caption: 2008. 03 - 2011. 02
+        description: |
+          - 문과
 
 # Footer
 footer_show_references: true
